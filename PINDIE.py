@@ -1,3 +1,5 @@
+# Programa para interpolar con el metodo de Newuton con datos igualmente espaciados
+
 from tkinter import *
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import numpy as np
@@ -192,4 +194,3 @@ boton = Button(ventana, text="Calcular", command=calcular)
 botonG = Button(ventana, text='Graficar', width = 15, command= graficar)
 
 ventana.after(1)
-ventana.mainloop()
